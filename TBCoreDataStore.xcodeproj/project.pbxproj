@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E473D59A18775E34005E2749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D59918775E34005E2749 /* Foundation.framework */; };
+		E473D59C18775E34005E2749 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D59B18775E34005E2749 /* CoreGraphics.framework */; };
+		E473D59E18775E34005E2749 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D59D18775E34005E2749 /* UIKit.framework */; };
+		E473D5A418775E34005E2749 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E473D5A218775E34005E2749 /* InfoPlist.strings */; };
+		E473D5A618775E34005E2749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E473D5A518775E34005E2749 /* main.m */; };
+		E473D5AA18775E34005E2749 /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E473D5A918775E34005E2749 /* TBAppDelegate.m */; };
+		E473D5AC18775E34005E2749 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E473D5AB18775E34005E2749 /* Images.xcassets */; };
+		E473D5B318775E34005E2749 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D5B218775E34005E2749 /* XCTest.framework */; };
+		E473D5B418775E34005E2749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D59918775E34005E2749 /* Foundation.framework */; };
+		E473D5B518775E34005E2749 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D59D18775E34005E2749 /* UIKit.framework */; };
+		E473D5BD18775E34005E2749 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E473D5BB18775E34005E2749 /* InfoPlist.strings */; };
+		E473D5BF18775E34005E2749 /* TBCoreDataStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E473D5BE18775E34005E2749 /* TBCoreDataStoreTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E473D5B618775E34005E2749 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E473D58E18775E34005E2749 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E473D59518775E34005E2749;
+			remoteInfo = TBCoreDataStore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E473D59618775E34005E2749 /* TBCoreDataStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TBCoreDataStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E473D59918775E34005E2749 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E473D59B18775E34005E2749 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E473D59D18775E34005E2749 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E473D5A118775E34005E2749 /* TBCoreDataStore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCoreDataStore-Info.plist"; sourceTree = "<group>"; };
+		E473D5A318775E34005E2749 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E473D5A518775E34005E2749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E473D5A718775E34005E2749 /* TBCoreDataStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBCoreDataStore-Prefix.pch"; sourceTree = "<group>"; };
+		E473D5A818775E34005E2749 /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
+		E473D5A918775E34005E2749 /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
+		E473D5AB18775E34005E2749 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E473D5B118775E34005E2749 /* TBCoreDataStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBCoreDataStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E473D5B218775E34005E2749 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E473D5BA18775E34005E2749 /* TBCoreDataStoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCoreDataStoreTests-Info.plist"; sourceTree = "<group>"; };
+		E473D5BC18775E34005E2749 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E473D5BE18775E34005E2749 /* TBCoreDataStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBCoreDataStoreTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E473D59318775E34005E2749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E473D59C18775E34005E2749 /* CoreGraphics.framework in Frameworks */,
+				E473D59E18775E34005E2749 /* UIKit.framework in Frameworks */,
+				E473D59A18775E34005E2749 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E473D5AE18775E34005E2749 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E473D5B318775E34005E2749 /* XCTest.framework in Frameworks */,
+				E473D5B518775E34005E2749 /* UIKit.framework in Frameworks */,
+				E473D5B418775E34005E2749 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E473D58D18775E34005E2749 = {
+			isa = PBXGroup;
+			children = (
+				E473D59F18775E34005E2749 /* TBCoreDataStore */,
+				E473D5B818775E34005E2749 /* TBCoreDataStoreTests */,
+				E473D59818775E34005E2749 /* Frameworks */,
+				E473D59718775E34005E2749 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E473D59718775E34005E2749 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E473D59618775E34005E2749 /* TBCoreDataStore.app */,
+				E473D5B118775E34005E2749 /* TBCoreDataStoreTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E473D59818775E34005E2749 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E473D59918775E34005E2749 /* Foundation.framework */,
+				E473D59B18775E34005E2749 /* CoreGraphics.framework */,
+				E473D59D18775E34005E2749 /* UIKit.framework */,
+				E473D5B218775E34005E2749 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E473D59F18775E34005E2749 /* TBCoreDataStore */ = {
+			isa = PBXGroup;
+			children = (
+				E473D5A818775E34005E2749 /* TBAppDelegate.h */,
+				E473D5A918775E34005E2749 /* TBAppDelegate.m */,
+				E473D5AB18775E34005E2749 /* Images.xcassets */,
+				E473D5A018775E34005E2749 /* Supporting Files */,
+			);
+			path = TBCoreDataStore;
+			sourceTree = "<group>";
+		};
+		E473D5A018775E34005E2749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E473D5A118775E34005E2749 /* TBCoreDataStore-Info.plist */,
+				E473D5A218775E34005E2749 /* InfoPlist.strings */,
+				E473D5A518775E34005E2749 /* main.m */,
+				E473D5A718775E34005E2749 /* TBCoreDataStore-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E473D5B818775E34005E2749 /* TBCoreDataStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				E473D5BE18775E34005E2749 /* TBCoreDataStoreTests.m */,
+				E473D5B918775E34005E2749 /* Supporting Files */,
+			);
+			path = TBCoreDataStoreTests;
+			sourceTree = "<group>";
+		};
+		E473D5B918775E34005E2749 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E473D5BA18775E34005E2749 /* TBCoreDataStoreTests-Info.plist */,
+				E473D5BB18775E34005E2749 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E473D59518775E34005E2749 /* TBCoreDataStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E473D5C218775E34005E2749 /* Build configuration list for PBXNativeTarget "TBCoreDataStore" */;
+			buildPhases = (
+				E473D59218775E34005E2749 /* Sources */,
+				E473D59318775E34005E2749 /* Frameworks */,
+				E473D59418775E34005E2749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TBCoreDataStore;
+			productName = TBCoreDataStore;
+			productReference = E473D59618775E34005E2749 /* TBCoreDataStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E473D5B018775E34005E2749 /* TBCoreDataStoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E473D5C518775E34005E2749 /* Build configuration list for PBXNativeTarget "TBCoreDataStoreTests" */;
+			buildPhases = (
+				E473D5AD18775E34005E2749 /* Sources */,
+				E473D5AE18775E34005E2749 /* Frameworks */,
+				E473D5AF18775E34005E2749 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E473D5B718775E34005E2749 /* PBXTargetDependency */,
+			);
+			name = TBCoreDataStoreTests;
+			productName = TBCoreDataStoreTests;
+			productReference = E473D5B118775E34005E2749 /* TBCoreDataStoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E473D58E18775E34005E2749 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TB;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = thoughtbot;
+				TargetAttributes = {
+					E473D5B018775E34005E2749 = {
+						TestTargetID = E473D59518775E34005E2749;
+					};
+				};
+			};
+			buildConfigurationList = E473D59118775E34005E2749 /* Build configuration list for PBXProject "TBCoreDataStore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E473D58D18775E34005E2749;
+			productRefGroup = E473D59718775E34005E2749 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E473D59518775E34005E2749 /* TBCoreDataStore */,
+				E473D5B018775E34005E2749 /* TBCoreDataStoreTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E473D59418775E34005E2749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E473D5A418775E34005E2749 /* InfoPlist.strings in Resources */,
+				E473D5AC18775E34005E2749 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E473D5AF18775E34005E2749 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E473D5BD18775E34005E2749 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E473D59218775E34005E2749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E473D5AA18775E34005E2749 /* TBAppDelegate.m in Sources */,
+				E473D5A618775E34005E2749 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E473D5AD18775E34005E2749 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E473D5BF18775E34005E2749 /* TBCoreDataStoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E473D5B718775E34005E2749 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E473D59518775E34005E2749 /* TBCoreDataStore */;
+			targetProxy = E473D5B618775E34005E2749 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E473D5A218775E34005E2749 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E473D5A318775E34005E2749 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E473D5BB18775E34005E2749 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E473D5BC18775E34005E2749 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E473D5C018775E34005E2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E473D5C118775E34005E2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E473D5C318775E34005E2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBCoreDataStore/TBCoreDataStore-Prefix.pch";
+				INFOPLIST_FILE = "TBCoreDataStore/TBCoreDataStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E473D5C418775E34005E2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBCoreDataStore/TBCoreDataStore-Prefix.pch";
+				INFOPLIST_FILE = "TBCoreDataStore/TBCoreDataStore-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E473D5C618775E34005E2749 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TBCoreDataStore.app/TBCoreDataStore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBCoreDataStore/TBCoreDataStore-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TBCoreDataStoreTests/TBCoreDataStoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E473D5C718775E34005E2749 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TBCoreDataStore.app/TBCoreDataStore";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TBCoreDataStore/TBCoreDataStore-Prefix.pch";
+				INFOPLIST_FILE = "TBCoreDataStoreTests/TBCoreDataStoreTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E473D59118775E34005E2749 /* Build configuration list for PBXProject "TBCoreDataStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E473D5C018775E34005E2749 /* Debug */,
+				E473D5C118775E34005E2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E473D5C218775E34005E2749 /* Build configuration list for PBXNativeTarget "TBCoreDataStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E473D5C318775E34005E2749 /* Debug */,
+				E473D5C418775E34005E2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E473D5C518775E34005E2749 /* Build configuration list for PBXNativeTarget "TBCoreDataStoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E473D5C618775E34005E2749 /* Debug */,
+				E473D5C718775E34005E2749 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E473D58E18775E34005E2749 /* Project object */;
+}
