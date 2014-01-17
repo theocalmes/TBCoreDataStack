@@ -10,15 +10,15 @@
 		E473D59A18775E34005E2749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D59918775E34005E2749 /* Foundation.framework */; };
 		E473D59C18775E34005E2749 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D59B18775E34005E2749 /* CoreGraphics.framework */; };
 		E473D59E18775E34005E2749 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D59D18775E34005E2749 /* UIKit.framework */; };
-		E473D5A418775E34005E2749 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E473D5A218775E34005E2749 /* InfoPlist.strings */; };
-		E473D5A618775E34005E2749 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E473D5A518775E34005E2749 /* main.m */; };
-		E473D5AA18775E34005E2749 /* TBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E473D5A918775E34005E2749 /* TBAppDelegate.m */; };
-		E473D5AC18775E34005E2749 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E473D5AB18775E34005E2749 /* Images.xcassets */; };
 		E473D5B318775E34005E2749 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D5B218775E34005E2749 /* XCTest.framework */; };
 		E473D5B418775E34005E2749 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D59918775E34005E2749 /* Foundation.framework */; };
 		E473D5B518775E34005E2749 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E473D59D18775E34005E2749 /* UIKit.framework */; };
-		E473D5BD18775E34005E2749 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E473D5BB18775E34005E2749 /* InfoPlist.strings */; };
-		E473D5BF18775E34005E2749 /* TBCoreDataStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E473D5BE18775E34005E2749 /* TBCoreDataStoreTests.m */; };
+		E473D5CA18775F5D005E2749 /* TBCoreDataStoreS1.m in Sources */ = {isa = PBXBuildFile; fileRef = E473D5C918775F5D005E2749 /* TBCoreDataStoreS1.m */; };
+		E4EF73821889B23C000525EE /* NSFileManager+TBDirectories.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF73811889B23C000525EE /* NSFileManager+TBDirectories.m */; };
+		E4EF73851889B393000525EE /* TBCoreDataStoreS2.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF73841889B393000525EE /* TBCoreDataStoreS2.m */; };
+		E4EF73881889B49D000525EE /* NSManagedObjectID+TBString.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF73871889B49D000525EE /* NSManagedObjectID+TBString.m */; };
+		E4EF738B1889B519000525EE /* NSManagedObject+TBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF738A1889B519000525EE /* NSManagedObject+TBAdditions.m */; };
+		E4EF738E1889B54B000525EE /* NSManagedObjectContext+TBAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E4EF738D1889B54B000525EE /* NSManagedObjectContext+TBAdditions.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,18 +36,20 @@
 		E473D59918775E34005E2749 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E473D59B18775E34005E2749 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		E473D59D18775E34005E2749 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		E473D5A118775E34005E2749 /* TBCoreDataStore-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCoreDataStore-Info.plist"; sourceTree = "<group>"; };
-		E473D5A318775E34005E2749 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E473D5A518775E34005E2749 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		E473D5A718775E34005E2749 /* TBCoreDataStore-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TBCoreDataStore-Prefix.pch"; sourceTree = "<group>"; };
-		E473D5A818775E34005E2749 /* TBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TBAppDelegate.h; sourceTree = "<group>"; };
-		E473D5A918775E34005E2749 /* TBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBAppDelegate.m; sourceTree = "<group>"; };
-		E473D5AB18775E34005E2749 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E473D5B118775E34005E2749 /* TBCoreDataStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TBCoreDataStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E473D5B218775E34005E2749 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		E473D5BA18775E34005E2749 /* TBCoreDataStoreTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TBCoreDataStoreTests-Info.plist"; sourceTree = "<group>"; };
-		E473D5BC18775E34005E2749 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		E473D5BE18775E34005E2749 /* TBCoreDataStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TBCoreDataStoreTests.m; sourceTree = "<group>"; };
+		E473D5C818775F5D005E2749 /* TBCoreDataStoreS1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCoreDataStoreS1.h; sourceTree = "<group>"; };
+		E473D5C918775F5D005E2749 /* TBCoreDataStoreS1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCoreDataStoreS1.m; sourceTree = "<group>"; };
+		E4EF73801889B23C000525EE /* NSFileManager+TBDirectories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+TBDirectories.h"; sourceTree = "<group>"; };
+		E4EF73811889B23C000525EE /* NSFileManager+TBDirectories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFileManager+TBDirectories.m"; sourceTree = "<group>"; };
+		E4EF73831889B393000525EE /* TBCoreDataStoreS2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCoreDataStoreS2.h; sourceTree = "<group>"; };
+		E4EF73841889B393000525EE /* TBCoreDataStoreS2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCoreDataStoreS2.m; sourceTree = "<group>"; };
+		E4EF73861889B49D000525EE /* NSManagedObjectID+TBString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectID+TBString.h"; sourceTree = "<group>"; };
+		E4EF73871889B49D000525EE /* NSManagedObjectID+TBString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectID+TBString.m"; sourceTree = "<group>"; };
+		E4EF73891889B519000525EE /* NSManagedObject+TBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+TBAdditions.h"; sourceTree = "<group>"; };
+		E4EF738A1889B519000525EE /* NSManagedObject+TBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+TBAdditions.m"; sourceTree = "<group>"; };
+		E4EF738C1889B54B000525EE /* NSManagedObjectContext+TBAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+TBAdditions.h"; sourceTree = "<group>"; };
+		E4EF738D1889B54B000525EE /* NSManagedObjectContext+TBAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+TBAdditions.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				E473D59F18775E34005E2749 /* TBCoreDataStore */,
-				E473D5B818775E34005E2749 /* TBCoreDataStoreTests */,
 				E473D59818775E34005E2749 /* Frameworks */,
 				E473D59718775E34005E2749 /* Products */,
 			);
@@ -107,41 +108,36 @@
 		E473D59F18775E34005E2749 /* TBCoreDataStore */ = {
 			isa = PBXGroup;
 			children = (
-				E473D5A818775E34005E2749 /* TBAppDelegate.h */,
-				E473D5A918775E34005E2749 /* TBAppDelegate.m */,
-				E473D5AB18775E34005E2749 /* Images.xcassets */,
-				E473D5A018775E34005E2749 /* Supporting Files */,
+				E4EF73901889B5B2000525EE /* Stores */,
+				E4EF738F1889B5AB000525EE /* Categories */,
 			);
 			path = TBCoreDataStore;
 			sourceTree = "<group>";
 		};
-		E473D5A018775E34005E2749 /* Supporting Files */ = {
+		E4EF738F1889B5AB000525EE /* Categories */ = {
 			isa = PBXGroup;
 			children = (
-				E473D5A118775E34005E2749 /* TBCoreDataStore-Info.plist */,
-				E473D5A218775E34005E2749 /* InfoPlist.strings */,
-				E473D5A518775E34005E2749 /* main.m */,
-				E473D5A718775E34005E2749 /* TBCoreDataStore-Prefix.pch */,
+				E4EF73861889B49D000525EE /* NSManagedObjectID+TBString.h */,
+				E4EF73871889B49D000525EE /* NSManagedObjectID+TBString.m */,
+				E4EF73801889B23C000525EE /* NSFileManager+TBDirectories.h */,
+				E4EF73811889B23C000525EE /* NSFileManager+TBDirectories.m */,
+				E4EF73891889B519000525EE /* NSManagedObject+TBAdditions.h */,
+				E4EF738A1889B519000525EE /* NSManagedObject+TBAdditions.m */,
+				E4EF738C1889B54B000525EE /* NSManagedObjectContext+TBAdditions.h */,
+				E4EF738D1889B54B000525EE /* NSManagedObjectContext+TBAdditions.m */,
 			);
-			name = "Supporting Files";
+			name = Categories;
 			sourceTree = "<group>";
 		};
-		E473D5B818775E34005E2749 /* TBCoreDataStoreTests */ = {
+		E4EF73901889B5B2000525EE /* Stores */ = {
 			isa = PBXGroup;
 			children = (
-				E473D5BE18775E34005E2749 /* TBCoreDataStoreTests.m */,
-				E473D5B918775E34005E2749 /* Supporting Files */,
+				E473D5C818775F5D005E2749 /* TBCoreDataStoreS1.h */,
+				E473D5C918775F5D005E2749 /* TBCoreDataStoreS1.m */,
+				E4EF73831889B393000525EE /* TBCoreDataStoreS2.h */,
+				E4EF73841889B393000525EE /* TBCoreDataStoreS2.m */,
 			);
-			path = TBCoreDataStoreTests;
-			sourceTree = "<group>";
-		};
-		E473D5B918775E34005E2749 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E473D5BA18775E34005E2749 /* TBCoreDataStoreTests-Info.plist */,
-				E473D5BB18775E34005E2749 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			name = Stores;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,8 +216,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E473D5A418775E34005E2749 /* InfoPlist.strings in Resources */,
-				E473D5AC18775E34005E2749 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,7 +223,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E473D5BD18775E34005E2749 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +233,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E473D5AA18775E34005E2749 /* TBAppDelegate.m in Sources */,
-				E473D5A618775E34005E2749 /* main.m in Sources */,
+				E4EF73851889B393000525EE /* TBCoreDataStoreS2.m in Sources */,
+				E4EF738B1889B519000525EE /* NSManagedObject+TBAdditions.m in Sources */,
+				E4EF73881889B49D000525EE /* NSManagedObjectID+TBString.m in Sources */,
+				E4EF73821889B23C000525EE /* NSFileManager+TBDirectories.m in Sources */,
+				E473D5CA18775F5D005E2749 /* TBCoreDataStoreS1.m in Sources */,
+				E4EF738E1889B54B000525EE /* NSManagedObjectContext+TBAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E473D5BF18775E34005E2749 /* TBCoreDataStoreTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,25 +258,6 @@
 			targetProxy = E473D5B618775E34005E2749 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E473D5A218775E34005E2749 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E473D5A318775E34005E2749 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		E473D5BB18775E34005E2749 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E473D5BC18775E34005E2749 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E473D5C018775E34005E2749 /* Debug */ = {
@@ -442,6 +419,7 @@
 				E473D5C418775E34005E2749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E473D5C518775E34005E2749 /* Build configuration list for PBXNativeTarget "TBCoreDataStoreTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +428,7 @@
 				E473D5C718775E34005E2749 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
