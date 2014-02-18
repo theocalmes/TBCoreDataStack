@@ -15,6 +15,7 @@
 
 + (NSManagedObjectContext *)newMainQueueContext;
 + (NSManagedObjectContext *)defaultPrivateQueueContext;
++ (NSManagedObjectContext *)newPrivateQueueContext;
 
 + (NSManagedObjectID *)managedObjectIDFromString:(NSString *)managedObjectIDString;
 

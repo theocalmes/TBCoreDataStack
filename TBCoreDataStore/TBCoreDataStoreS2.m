@@ -45,6 +45,14 @@ static NSString *const TBCoreDataModelFileName = @"TBExampleCoreDataModel";
     return context;
 }
 
++ (NSManagedObjectContext *)newPrivateQueueContext
+{
+    NSManagedObjectContext *context = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSPrivateQueueConcurrencyType];
+    context.parentContext = [self defaultPrivateQueueContext];
+
+    return context;
+}
+
 + (NSManagedObjectContext *)defaultPrivateQueueContext
 {
     return [[self defaultStore] defaultPrivateQueueContext];
